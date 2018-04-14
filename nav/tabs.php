@@ -27,9 +27,10 @@ $dir = new DirectoryIterator($path);
         <a " class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
         <a " class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
     </div>
+	
 </div>
 
-<div class="container">
+
     <div class="row">
         <div id="test2" class="col s12">
             <div class="carousel" id="default2">
@@ -44,8 +45,9 @@ $dir = new DirectoryIterator($path);
                 <?php endforeach; ?>
             </div>
         </div>
+				  
     </div>
-</div>
+
 
 
 
@@ -56,8 +58,9 @@ $dir = new DirectoryIterator($path);
         <a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
         <a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
     </div>
+	
 </div>
-<div class="container">
+
     <div class="row">
         <div id="test4" class="col s12">
             <div class="carousel" id="default3">
@@ -73,4 +76,4 @@ $dir = new DirectoryIterator($path);
             </div>
         </div>
     </div>
-</div>
+

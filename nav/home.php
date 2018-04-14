@@ -1,8 +1,12 @@
-<div class="carousel carousel-slider" id="full">
-	<a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
-	<a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
-	<a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
-	<a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+<div class="row">
+	
+		<div class="carousel carousel-slider" id="full">
+			<a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
+			<a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+			<a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
+			<a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+		</div>
+	
 </div>
 
 <div class="container">
