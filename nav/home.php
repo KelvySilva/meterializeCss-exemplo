@@ -6,6 +6,8 @@
 			<a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
 			<a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
 		</div>
+		<button class="btn-floating btn-large waves-effect waves-light" id="next" onclick=""><i class="material-icons right middle-indicator-text">chevron_right</i></button>
+		<button class="btn-floating btn-large waves-effect waves-light" id="prev" onclick=""><i class="material-icons right middle-indicator-text">chevron_left</i></button>
 	
 </div>
 

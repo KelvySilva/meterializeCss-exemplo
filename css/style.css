@@ -2,3 +2,12 @@ nav {
 	background-color: #000 !important;
 }
 
+button#prev {
+    position: absolute;
+    top: 33%;
+}
+button#next {
+    position: absolute;
+    right: 0;
+    top: 33%;
+}

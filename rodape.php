@@ -14,13 +14,27 @@
 
   // Or with jQuery
 
+	
+  
    $(document).ready(function(){
     $('#default').carousel();
   });
   
  $('#full').carousel({
-    fullWidth: true
+    fullWidth: true,
+	indicators: true
   });
+  $('#next').click(function(e){
+	  e.preventDefault();
+	  e.stopPropagation();
+	  $('#full').carousel('next');
+   });
+   
+    $('#prev').click(function(e){
+	  e.preventDefault();
+	  e.stopPropagation();
+	  $('#full').carousel('prev');
+   });
         
 		$(document).ready(function(){
     $('#default2').carousel();
