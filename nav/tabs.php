@@ -15,16 +15,17 @@ $dir = new DirectoryIterator($path);
             </ul>
         </div>
     </div>
+	
 </div>
 
 
 
 <div id="test1">
     <div class="carousel carousel-slider" id="full2">
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+        <a " class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+        <a " class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
+        <a " class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+        <a " class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
     </div>
 </div>
 
@@ -35,7 +36,7 @@ $dir = new DirectoryIterator($path);
                 <?php foreach ($dir as $fileInfo) : ?>
                     <?php if(strlen($fileInfo->getFilename()) > 2) : ?>
 
-                            <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item">
+                            <a  class="carousel-item">
                                 <img src="<?=$path?><?=$fileInfo->getFilename(); ?>" /> 
                             </a>
 
@@ -50,10 +51,10 @@ $dir = new DirectoryIterator($path);
 
 <div id="test3">
     <div class="carousel carousel-slider" id="full3">
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
-        <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+        <a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
+        <a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
+        <a class="carousel-item" href="#one!"><img src="img/d1.jpg"></a>
+        <a class="carousel-item" href="#one!"><img src="img/d2.jpg"></a>
     </div>
 </div>
 <div class="container">
@@ -63,7 +64,7 @@ $dir = new DirectoryIterator($path);
                 <?php foreach ($dir as $fileInfo) : ?>
                     <?php if(strlen($fileInfo->getFilename()) > 2) : ?>
 
-                                <a onclick="M.toast({html: 'I am a toast'})" class="carousel-item">
+                                <a class="carousel-item">
                                     <img src="<?=$path?><?=$fileInfo->getFilename(); ?>" /> 
                                 </a>
 
